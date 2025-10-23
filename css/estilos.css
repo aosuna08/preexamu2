@@ -75,3 +75,13 @@ td {
     border: 1px transparent;
     border-radius: 5px;
 }
+
+/* ESTILOS DE CALCULO DE GANANCIA */
+#formulario {
+    text-align: center;
+}
+
+input, select{
+    margin: 0;
+    width: 100%;
+}

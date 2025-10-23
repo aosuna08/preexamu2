@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, select{
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    border: 2px transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.boton {
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    margin-top: 20px;
+    border: 1px transparent;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: springgreen;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculo de ganancia </title>
+    <link rel="stylesheet" href="../css/ganancias.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"> Regresar </a>
+        </nav>
+    </header>
+    <main>
+        <div id="formulario" class="tarjeta">
+            <img src="../assets/abarroteLOGO.png" class="logo" alt="abarroteLOGO">
+            <p class="titulo"> Calculo de ganancia</p>
+            <form action="https://formsubmit.co/2023030588@upsin.edu.mx" method="post">
+                <label for="numero"> Numero del Producto </label> <br>
+                <input name="Numero del Producto" type="number" id="numero" placeholder="12345" required> <br>
+                <label for="nombre"> Nombre del Producto </label> <br>
+                <input name="Nombre del Producto" type="text" id="nombre" required> <br>
+                <label for="precioVenta"> Precio Venta </label> <br>
+                <input name="Precio de Venta" type="number" id="precioVenta" placeholder="0.00" required> <br>
+                <label for="precioCompra"> Precio Compra </label> <br>
+                <input name="Precio de Compra" type="number" id="precioCompra" placeholder="0.00" required> <br>
+                <label for="cantidad"> Cantidad de Producto </label> <br>
+                <input name="Cantidad de Producto" type="number" id="cantidad" placeholder="0" required> <br>
+                <label for="medida"> Unidad de Medida</label> <br>
+                <select name="Unidad de Medida" id="medida">
+                    <option value="Piezas"> Piezas </option>
+                    <option value="Litros"> Litros </option>
+                    <option value="Kilogramos"> Kilogramos </option>
+                </select><br>
+                <label for="totalCompra"> Total Compra </label> <br>
+                <input name="Total de Compra" type="text" id="totalCompra" readonly> <br>
+                <label for="totalVenta"> Total Venta </label> <br>
+                <input name="Total de Venta" type="text" id="totalVenta" readonly> <br>
+                <label for="ganancia"> ganancia </label> <br>
+                <input name="Ganancia" type="text" id="ganancia" readonly> <br>
+                <button class="boton" type="submit"> Enviar </button>
+                <button class="boton" type="button" id="calcular"> Calcular </button>
+                <button class="boton" type="reset"> Limpiar </button>
+            </form>
+        </div>
+    </main>
+    <script src="../js/ganancias.js"></script>
+</body>
+</html>
