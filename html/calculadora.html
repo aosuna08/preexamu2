@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Calculadora de tablas de multiplicar </title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header>
@@ -13,9 +14,9 @@
     </header>
     <main>
         <section>
-            <div id="tarjeta">
-                <p> Calculadora de tablas de multiplicar <p>
-                <label for="tabla"> Seleccione la tabla de multiplicar: </label><br>
+            <div class="tarjeta">
+                <p class="titulo"> Calculadora de tablas de multiplicar <p>
+                <p class="parrafo"> Seleccione la tabla de multiplicar: </p><br>
                 <select name="tabla" id="tabla">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -28,10 +29,10 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </select><br>
-                <button id="calcular"> Calcular </button><br>
-                <button type="reset" id="limpiar"> Limpiar </button><br>
-                <p> Resultado: </p>
-                <p id="resultado"></p>
+                <button id="calcular" class="boton"> Calcular </button><br>
+                <button type="reset" id="limpiar" class="boton"> Limpiar </button><br>
+                <p id="lblResultado"> Resultado: </p>
+                <p id="resultado" class="parrafo"></p>
             </div>
         </section>
     </main>
